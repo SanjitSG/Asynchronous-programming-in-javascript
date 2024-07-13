@@ -73,7 +73,7 @@ promiseOne()
   }); */
 
 // * consuming a promise using Async/Await
-
+/*
 // TODO - baking a pizza
 
 const preHeatOven = () => {
@@ -93,7 +93,7 @@ const preHeatOven = () => {
 const prepareIngredients = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const ingredientsReady = false;
+      const ingredientsReady = true;
 
       if (ingredientsReady) {
         resolve("Ingredients are ready...");
