@@ -10,6 +10,44 @@ body {
   text-align: center;
   font-size: 1.8rem;
 }
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+/* heading */
+h1 {
+  color: #15fd00;
+  text-shadow: 0 0 5px #409c02, 0 0 10px #66ff00, 0 0 20px #66ff00, 0 0 40px rgb(4, 88, 15),
+    0 0 80px rgb(2, 59, 7), 0 0 90px rgb(3, 46, 22), 0 0 100px rgb(5, 99, 5),
+    0 0 150px rgb(4, 61, 2);
+}
 
+/* image */
+#dad-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: 2px solid lime;
+  background: transparent;
+  color: lime;
+  cursor: pointer;
+  margin-top: 10rem;
+  font-size: 2rem;
+  border-radius: 40px;
+}
+#btn:hover {
+  color: rgb(30, 255, 0);
+  box-shadow: 0 5px 15px rgba(0, 255, 13, 0.4);
+}
 #jokes-container {
+  padding: 10rem 15rem;
+  height: 200px;
+  font-size: 3rem;
 }
