@@ -1,3 +1,4 @@
+//calling api + error handling
 const joke = async () => {
   try {
     const response = await fetch("https://icanhazdadjoke.com/", {
