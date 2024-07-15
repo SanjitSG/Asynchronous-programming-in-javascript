@@ -10,11 +10,70 @@
       rel="stylesheet"
       href="styles.css"
     />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- nato sans font -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather-API</title>
   </head>
   <body>
-    <h1>weather api</h1>
+    <div class="app">
+      <!-- search bar -->
+      <div class="search-bar">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search by city"
+        />
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
 
+      <!-- data and city -->
+      <div id="info">
+        <p id="date"></p>
+        <h3 id="city"></h3>
+      </div>
+
+      <!-- description -->
+      <div id="description"></div>
+
+      <!-- temp -->
+      <div id="temp"></div>
+
+      <!-- extra info -->
+      <div id="extra-info">
+        <div class="col">
+          <div class="info">
+            <h4>Highs</h4>
+            <p id="tempMax"></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="info">
+            <h4>Lows</h4>
+            <p id="tempMin"></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
