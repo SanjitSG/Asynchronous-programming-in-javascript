@@ -34,12 +34,11 @@
             <div id="buttonWhite">
               <div id="buttonBlue"></div>
             </div>
-          </div>
-
-          <div id="topSquareTwo">
-            <div id="buttonRed"></div>
-            <div id="buttonGreen"></div>
-            <div id="buttonYellow"></div>
+            <div id="topSquareTwo">
+              <div id="buttonRed"></div>
+              <div id="buttonGreen"></div>
+              <div id="buttonYellow"></div>
+            </div>
           </div>
 
           <div id="screen">
@@ -74,7 +73,7 @@
       <!-- second half of pokedex -->
 
       <div id="pokedexTwo">
-        <div id="topSquare">
+        <div id="topSquares">
           <div id="hidden"></div>
         </div>
 
@@ -84,7 +83,10 @@
             id="searchName"
             placeholder="Enter Pokemon"
           />
-          <button id="searchBtn">
+          <button
+            id="searchBtn"
+            onclick="getPokemon()"
+          >
             <i
               class="fa fa-search"
               aria-hidden="true"
@@ -101,13 +103,12 @@
           <div class="squares"></div>
           <div class="squares"></div>
           <div class="squares"></div>
-          <div class="squares"></div>
         </div>
 
         <div id="sectionThree">
           <div id="twoSquares">
-            <div id="two"></div>
-            <div id="two"></div>
+            <div class="two"></div>
+            <div class="two"></div>
           </div>
           <div id="bottomYellowBtn"></div>
         </div>
