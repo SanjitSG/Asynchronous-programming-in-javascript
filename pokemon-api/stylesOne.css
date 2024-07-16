@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #fce3a6;
+  padding-top: 20vh;
+}
+
+#pokedexOne {
+  width: 350px;
+  height: 530px;
+  display: block;
+  margin: auto;
+  background-color: #fc2243;
+  z-index: 3;
+}
+
+#top {
+  width: 75%;
+  display: block;
+  margin: auto;
+  height: 50%;
+  position: relative;
+  background: none;
+  border-radius: 0%;
+  z-index: 1;
+}
+
+#topSquare {
+  display: block;
+  width: 55%;
+  margin: auto;
+  background: #d50625;
+  z-index: 1;
+  height: 25%;
+  position: absolute;
+  left: -16.5%;
+}
+
+#buttonWhite {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: 2;
+}
